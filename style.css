@@ -1,0 +1,56 @@
+body::before {
+  content: "";
+  background: url('https://i.imgur.com/cnrHkPh.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  filter: blur(5px); 
+}
+
+
+.content {
+  /* Unblur content container */ 
+  filter: blur(0); 
+}
+
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  padding: 10px; 
+  margin: 20px auto;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.script {
+  width: 500px; 
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  overflow: auto;
+}

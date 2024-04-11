@@ -1,0 +1,61 @@
+<!-- script.html -->
+
+<html>
+<head>
+  <title>FlixyWare - Da hood</title>
+
+  <style>
+    body::before {
+      content: "";
+      background: url('https://i.imgur.com/cnrHkPh.png') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+
+      filter: blur(5px); 
+    }
+
+
+    .content {
+      /* Unblur content container */ 
+      filter: blur(0); 
+    }
+
+    
+    h1 {
+      text-align: center;
+      color: white;  
+    }
+    
+    .script {
+      width: 760px;
+      height: 300px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      color: black;
+      overflow: auto; 
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>FlixyWare - Da hood</h1>
+
+  <div class="script">
+    <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/XwixyOnhood/FlixyWare/main/output.lua"))()</p>
+    <p>To get the key go to: https://xwixyonhood.github.io/FlixyWaree/</p>
+  </div>
+
+</body>
+</html>
